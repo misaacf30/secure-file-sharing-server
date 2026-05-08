@@ -26,6 +26,7 @@ A self-hosted secure file-sharing system for Windows, macOS, and iOS devices. Th
 All configuration files used in this project are available in the `/configs` directory.
 
 ## Screenshots
+### Server
 ![docker-ps](screenshots/docker-ps.png)
 ![wg-show](screenshots/wg-show.png)
 
