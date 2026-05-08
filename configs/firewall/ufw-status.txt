@@ -1,0 +1,3 @@
+51820/udp                 ALLOW IN    <LAN_SUBNET>
+2222/tcp                  ALLOW IN    <VPN_SUBNET>
+445/tcp on wg0            ALLOW IN    Anywhere

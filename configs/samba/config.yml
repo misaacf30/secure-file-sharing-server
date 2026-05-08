@@ -1,0 +1,15 @@
+auth:
+  - user: <USERNAME>
+    group: <GROUP_NAME>
+    uid: 1000
+    gid: 1000
+    password: <PASSWORD>
+
+share:
+  - name: <SHARED_FOLDER_NAME>
+    path: /public
+    browsable: yes
+    readonly: no
+    guestok: no
+    validusers: <USERNAME>
+    writelist: <USERNAME>

@@ -1,0 +1,12 @@
+services:
+  samba:
+    image: crazymax/samba
+    container_name: <CONTAINER_NAME>
+    restart: unless-stopped
+    ports:
+      - "<HOST_IP>:445:445"
+    volumes:
+      - <HOST_SHARE_PATH>:/public
+      - ./config.yml:/data/config.yml
+    environment:
+      - TZ<TIMEZONE>
